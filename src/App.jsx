@@ -253,9 +253,8 @@ export default function App() {
 
       <section className={`screen ${screen === SCREENS.BUNNY ? "active" : ""}`}>
         <div className="content">
-          <div className="bunny-wrap">
-            <video className="bunny-video" src="/conejtio.webm" autoPlay muted loop playsInline />
-          </div>
+<video className="bunny-video" src="/conejtio.webm" autoPlay muted loop playsInline />
+
           <div className="hint">Cargando…</div>
         </div>
       </section>
