@@ -46,9 +46,9 @@ export default function App() {
     const pick = (arr) => arr[Math.floor(Math.random() * arr.length)];
     const heartGlyphs = ["💕", "💖", "💗", "💝", "💞"];
 
-    const TARGET_DENSITY = 9000;
-    const MAX_CAP = 260;
-    const SPAWN_PER_SEC = 18;
+    const TARGET_DENSITY = 13000;
+    const MAX_CAP = 160;
+    const SPAWN_PER_SEC = 10;
 
     let spawnAcc = 0;
 
